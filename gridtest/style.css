@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Sans+Hanunoo&family=Nunito+Sans:ital@1&family=Oswald&family=Press+Start+2P&family=Raleway:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #0e264d, #112c55, #0e2342);
+}
+.imgheader {
+  height: 140px;
+}
+.headtitle {
+  font-family: "Noto Sans Hanunoo", sans-serif;
+  font-size: 70px;
+  padding-left: 230px;
+  cursor: context-menu;
+}
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding-right: 30px;
+}
+.linkbotao {
+  text-decoration: none;
+  color: white;
+}
+.botao {
+  font-size: 32px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+.botao:hover {
+  transition: 0.4s;
+  color: #5995ed;
+}
+.linkbotao:hover {
+  transition: 0.4s;
+  color: #5995ed;
+}
+.container {
+}
+.main {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.main {
+  background-image: linear-gradient(to right, #191352, #112c55, #0f0e0e);
+}
+.maincontent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 2px solid white;
+  margin-bottom: 50px;
+
+  background-image: linear-gradient(to right, #594588, #4a3b79, #414a85);
+}
+.maincontentsub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+.maintitle {
+  font-size: 100px;
+  color: white;
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+.mainsubtitle {
+  font-size: 30px;
+  color: rgb(236, 230, 230);
+  font-family: "Raleway", sans-serif;
+}
+.imagemmain1 {
+  padding-right: 150px;
+}
+.subcontenttitle {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: "Noto Sans Hanunoo", sans-serif;
+  padding-bottom: 70px;
+}
+.subcontent {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.displayaiden {
+  text-align: center;
+  flex-direction: column;
+  font-size: 35px;
+  color: transparent;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+.aiden {
+  width: 500px;
+  border-radius: 50px;
+}
+
+.aiden:hover {
+  transition: 0.4s;
+  width: 600px;
+  border-radius: 800px;
+}
+.displayaiden:hover {
+  transition: 0.4s;
+  color: white;
+}
+.displayblume {
+  text-align: center;
+  flex-direction: column;
+  font-size: 35px;
+  color: transparent;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+.blume {
+  width: 500px;
+  border-radius: 50px;
+}
+
+.blume:hover {
+  transition: 0.4s;
+  width: 600px;
+  border-radius: 800px;
+}
+.displayblume:hover {
+  transition: 0.4s;
+  color: white;
+}
+.displaydedsec {
+  text-align: center;
+  flex-direction: column;
+  font-size: 35px;
+  color: transparent;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+.dedsec {
+  width: 500px;
+  border-radius: 50px;
+}
+
+.dedsec:hover {
+  transition: 0.4s;
+  width: 600px;
+  border-radius: 800px;
+}
+.displaydedsec:hover {
+  transition: 0.4s;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #0e264d, #112c55, #0e2342);
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.iconfooter {
+  height: 68px;
+}
+.welcomestore {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+.contgrid {
+  display: grid;
+  grid-template-areas:
+    "itemstore10 itemstore1 itemstore2 itemstore3"
+    "itemstore10 itemstore4 itemstore5 itemstore6"
+    "itemstore10 itemstore7 itemstore8 itemstore9";
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 150px;
+}
+.itemstore {
+  background-color: transparent;
+  border: 5px solid #10284b;
+  padding: 20px;
+  width: 400px;
+  height: 31vh;
+  margin-left: 40px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.itemstore1 {
+  grid-area: itemstore1;
+  background-image: url(https://cdn.shopify.com/s/files/1/0498/3249/3214/products/funko-anakin-skywalker-2811_480x.jpg?v=1635352583);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.itemstore1:hover {
+  transition: 0.4s;
+  background-image: url(img/anakin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 230px;
+  height: 400px;
+}
+
+.itemstore2 {
+  grid-area: itemstore2;
+  background-image: url(https://m.media-amazon.com/images/I/51Jzaqne05L._AC_.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 350px;
+}
+.itemstore2:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/51IlyPwXePL._AC_SY879_.jpg);
+  background-size: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+.itemstore3 {
+  grid-area: itemstore3;
+  background-image: url(https://m.media-amazon.com/images/I/51XNVpiefRL._AC_.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.itemstore3:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/51P8U8VCQ2L._AC_SX679_.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.itemstore4 {
+  grid-area: itemstore4;
+  background-image: url(img/luke.png);
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+.itemstore4:hover {
+  transition: 0.4s;
+  background-image: url(img/luke2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.itemstore5 {
+  grid-area: itemstore5;
+  background-image: url(https://m.media-amazon.com/images/I/61sJEErNTCL._AC_SX569_.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itemstore5:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/51bqnW3TckL._AC_SX569_.jpg);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.itemstore6 {
+  grid-area: itemstore6;
+  background-image: url(https://m.media-amazon.com/images/I/71xdjltlMrL._AC_SX679_.jpg);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itemstore6:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/61WgvjE5DBL._AC_SX679_.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.itemstore7 {
+  grid-area: itemstore7;
+  background-image: url(https://m.media-amazon.com/images/I/81rrKRtM7LL._AC_SY879_.jpg);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itemstore7:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/71rKY+2hgRL._AC_SY879_.jpg);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.itemstore8 {
+  grid-area: itemstore8;
+  background-image: url(https://66703.cdn.simplo7.net/static/66703/sku/funko-pop-star-wars-funko-pop-emperor-palpatine-revitalized-433-star-wars--p-1630620574635.jpg);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itemstore8:hover {
+  transition: 0.4s;
+  background-image: url(https://66703.cdn.simplo7.net/static/66703/sku/funko-pop-star-wars-funko-pop-emperor-palpatine-revitalized-433-star-wars--p-1630620573161.jpg);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.itemstore9 {
+  grid-area: itemstore9;
+  background-image: url(https://m.media-amazon.com/images/I/61zzGyKqgyL._AC_SX679_.jpg);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itemstore9:hover {
+  transition: 0.4s;
+  background-image: url(https://m.media-amazon.com/images/I/41B5EhuLGbL._AC_SX679_.jpg);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.barrapesquisa {
+  background-color: transparent;
+  border: 6px solid #10284b;
+  border-radius: 30px;
+  padding: 20px;
+  width: 300px;
+}
+.titulobarra {
+  padding-bottom: 40px;
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+.categorias {
+  display: grid;
+  grid-template-areas:
+    "funko marcafunko"
+    "camiseta marcacamiseta"
+    "caneca marcacaneca"
+    "acessorio marcaacessorio"
+    "almofadas marcaalmofadas";
+  gap: 10px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 2000px;
+}
+.funko {
+  grid-area: funko;
+}
+.marcafunko {
+  grid-area: marcafunko;
+}
+.camiseta {
+  grid-area: camiseta;
+}
+.marcacamiseta {
+  grid-area: marcacamiseta;
+}
+.caneca {
+  grid-area: caneca;
+}
+.marcacaneca {
+  grid-area: marcacaneca;
+}
+.acessorio {
+  grid-area: acessorio;
+}
+.marcaacessorio {
+  grid-area: marcaacessorio;
+}
+.almofadas {
+  grid-area: almofadas;
+}
+.marcaalmofadas {
+  grid-area: marcaalmofadas;
+}
+
+.itemstore10 {
+  grid-area: itemstore10;
+  height: 98vh;
+}
